@@ -1,0 +1,94 @@
+body,
+html {
+  font-family: montserrat;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(#9cebfc, #6e405d);
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(252, 186, 5, 0.158);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  padding-bottom: 20px;
+  width: 320px;
+}
+.display {
+  width: 100%;
+  height: 60px;
+  padding: 40px 0;
+  background: #03b4b4;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+.buttons {
+  padding: 20px 20px 0 20px;
+}
+.row {
+  width: 280px;
+  float: left;
+}
+input[type="button"] {
+  width: 60px;
+  height: 60px;
+  float: left;
+  padding: 0;
+  margin: 5px;
+  box-sizing: border-box;
+  background: #0126f838;
+  border: none;
+  font-size: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  font-weight: 700;
+  color: #050505f8;
+  cursor: pointer;
+}
+input[type="text"] {
+  width: 270px;
+  height: 60px;
+  float: left;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  color: #030303;
+  text-align: right;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  margin: 0 25px;
+}
+input[type="button"]:hover {
+  background: #06cbfcda;
+}
+
+input[type="button"].Clear:hover,
+.delete:hover {
+  background: #f50606 !important;
+}
+
+.equal {
+  background: #0126f838 !important;
+  color: #08070e !important;
+}
+
+input[type="button"].equal {
+  width: 150px;
+  margin: 10px 30px 10px 27px;
+  background: #0126f838 !important;
+  color: #08070e !important;
+  padding: 10px 0;
+  float: left;
+}
+
+input[type="button"].equal:hover {
+  background-color: #fa5e04 !important;
+}
